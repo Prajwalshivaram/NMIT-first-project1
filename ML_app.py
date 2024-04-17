@@ -27,7 +27,7 @@ def predict(Buying, Maint, Doors, Persons, Lug_boot, Safety):
   return prediction
 
   st.title('car Evalution Classification')
-  st.image("ed.vauto.com/ec/c1/33/96-473e-421a-8d15-061cadea790e/image-1.jpg")
+  st.image("""https://upload.wikimedia.org/wikipedia/commons/c/c5/Bentley_Continental_GT3-R.jpg""")
   st.header('Enter the Information of the Car:')
 
   st.text("vhigh = 1 high = 2 med = 3 low = 4")
